@@ -2,7 +2,7 @@
     <content><![CDATA[
 {% if ${1:expression} %}
     ${2:if_instructions}
-{% endfor %}
+{% endif %}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>if</tabTrigger>

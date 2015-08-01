@@ -4,7 +4,7 @@
     ${2:if_instructions}
 {% else %}
     ${3:else_instruction}
-{% endfor %}
+{% endif %}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ifelse</tabTrigger>
