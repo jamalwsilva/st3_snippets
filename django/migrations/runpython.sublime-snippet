@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+def forward_${1:func_name}(apps, schema_editor):
+    ${2:model_name} = apps.get_model('${3:app_name}', '${2:model_name}')
+
+    db_alias = schema_editor.connection.alias
+    ${4}
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>forward</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
