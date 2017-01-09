@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+(function(){
+    ${1:code_here}
+})();
+]]></content>
+    <tabTrigger>iife</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
